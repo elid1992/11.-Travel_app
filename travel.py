@@ -5,7 +5,6 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 import dash_ag_grid as grid
-import datetime
 import numpy as np
 import io
 from flask import Flask
@@ -13,7 +12,6 @@ import pandas as pd
 from flask_sqlalchemy import SQLAlchemy
 import sqlalchemy as sa
 from google.cloud.sql.connector import Connector
-from sqlalchemy import Column, Float, Integer, String, Table
 import urllib
 import dash_auth
 
